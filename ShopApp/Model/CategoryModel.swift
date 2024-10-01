@@ -9,12 +9,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        Home()
-    }
+struct CategoryModel: Identifiable, Hashable {
+    var id: UUID = .init()
+    var icon: String
+    var title: String
+    
 }
 
-#Preview {
-    ContentView()
-}
+var categoryList: [CategoryModel] = [
+    CategoryModel(icon: "", title: "All"),
+    CategoryModel(icon: "sushi", title: "Sushi"),
+    CategoryModel(icon: "miso-soup", title: "Miso-soup"),
+    CategoryModel(icon: "bento", title: "Bento")
+]
