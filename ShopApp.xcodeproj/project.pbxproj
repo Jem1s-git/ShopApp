@@ -29,10 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15869EE92CA18AE9003211E3 = {
+		15620F022CAC048400198E4B /* ShopApp */ = {
 			isa = PBXGroup;
 			children = (
 				15869EF42CA18AE9003211E3 /* ShopApp */,
+			);
+			path = ShopApp;
+			sourceTree = "<group>";
+		};
+		15869EE92CA18AE9003211E3 = {
+			isa = PBXGroup;
+			children = (
+				15620F022CAC048400198E4B /* ShopApp */,
 				15869EF32CA18AE9003211E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -251,7 +259,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ShopApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ShopApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
